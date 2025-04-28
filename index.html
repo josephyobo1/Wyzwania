@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator wyzwań</title>
+    <link rel="stylesheet" href="styl1.css">
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <h1>Wylosuj wyzwanie</h1>
+    <input type="button" id="przycisk" class="przycisk" value="Losuj" onclick="losowanie()">
+    <h2 id="wynik"></h2>
+    <input type="button" id="przycisk2" class="przycisk" value="Ukończono wyzwanie" onclick="ukonczone()">
+    <input type="button" id="przycisk3" class="przycisk" value="Losuj ponownie" onclick="reset()">
+    <input type="button" class="przycisk" value="Pokaż historię" onclick="pokazhistorie()">
+    <div id="historia"></div>
+  
+    <!-- Animacja Lottie -->
+    <dotlottie-player id="animacja" src="https://lottie.host/af4d94b6-7574-40be-8995-d22c384d4e00/22dVXQL39n.lottie" background="transparent" speed="1" loop autoplay></dotlottie-player>
+
+    
+    <script src="script.js"></script> <!-- Połączenie pliku JavaScript -->
+</body>
+</html>
