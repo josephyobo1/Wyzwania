@@ -34,7 +34,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px; /* Odstęp między tekstem a obrazkiem */
+    gap: 20px; 
 }
 
 header img {
@@ -43,28 +43,28 @@ header img {
     margin-left: 0;
 }
 
-/* Media queries dla mniejszych ekranów */
+
 @media (max-width: 768px) {
     header {
-        font-size: 36px; /* Zmniejsz rozmiar czcionki */
-        padding: 15px; /* Zmniejsz padding */
+        font-size: 36px; 
+        padding: 15px; 
     }
 
     header img {
-        height: 40px; /* Zmniejsz rozmiar obrazka */
+        height: 40px; 
         width: 40px;
     }
 }
 
 @media (max-width: 480px) {
     header {
-        font-size: 28px; /* Jeszcze mniejszy rozmiar czcionki */
-        padding: 10px; /* Jeszcze mniejszy padding */
-        flex-direction: column; /* Ustaw tekst i obrazek w kolumnie */
+        font-size: 28px; 
+        padding: 10px; 
+        flex-direction: column; 
     }
 
     header img {
-        height: 30px; /* Jeszcze mniejszy rozmiar obrazka */
+        height: 30px;
         width: 30px;
     }
 }
@@ -77,10 +77,10 @@ header img {
     height: 400px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
     margin-top: 100px;
-    display: flex; /* Użycie flexboxa */
-    flex-direction: column; /* Ustawienie elementów w kolumnie */
-    justify-content: space-between; /* Rozdzielenie elementów w pionie */
-    align-items: center; /* Wyśrodkowanie elementów w poziomie */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 h1 {
@@ -111,10 +111,10 @@ h2#wynik {
 }
 
 .buttons {
-    display: flex; /* Ustawienie układu flexbox */
-    justify-content: center; /* Wyśrodkowanie przycisków */
-    gap: 20px; /* Odstęp między przyciskami */
-    width: 100%; /* Przyciski zajmują całą szerokość kontenera */
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    width: 100%; 
 }
 
 
@@ -189,18 +189,18 @@ h2#wynik {
     transform: translateY(-50%);
     width: 300px;
     height: 300px;
-    display: none; /* Domyślnie ukryte */
+    display: none; 
     border-radius: 15px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
     animation: fadeIn 1.5s ease-in-out;
 }
 
 #animacja-lewa {
-    left: 10%; /* Po lewej stronie */
+    left: 10%; 
 }
 
 #animacja-prawa {
-    right: 10%; /* Po prawej stronie */
+    right: 10%;
 }
 
 #historia {
@@ -208,15 +208,15 @@ h2#wynik {
     margin-bottom: 20px;
     padding: 20px;
     background: #FFFFFF;
-    border-radius: 50px; /* Dopasowanie do .container */
-    width: 760px; /* Taka sama szerokość jak .container */
+    border-radius: 50px; 
+    width: 760px; 
     height: auto;
     min-height:300px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
     overflow-y: hidden;
     font-size: 1rem;
     color: green;
-    display: none; /* Ukryj domyślnie */
+    display: none; 
 }
 
 #historia h2 {
